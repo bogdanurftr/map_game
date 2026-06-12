@@ -52,4 +52,5 @@ Every entry was explicitly confirmed by Bogdan during the spec interview (June 2
 
 | # | Date | Amendment |
 |---|---|---|
+| A2 | 2026-06-12 | **India → Purple, Mongolia → Orange** (Bogdan, in-session). Amends D4's bloc composition. SPEC §3 Orange/Purple population & unit targets recomputed: Orange ~1.57B / ~15,700 units, Purple ~1.76B / ~17,600 units. |
 | A1 | 2026-06-12 | **team_map_draft_v1.md reconstructed.** The original draft was absent from the project, so M1 rebuilt it from D1–D8 + SPEC §3 population targets (religion-map interpretation). Tuning choices made solely to hit the ±5% bands: Ethiopia → Green, Sri Lanka → Orange; Yellow defined as the folk/unaffiliated bloc (Vietnam, Koreas, Taiwan + African traditional belt + Czechia/Estonia/Uruguay). Populations = Natural Earth POP_EST (2019) scaled ×1.0707 to the 8.22B SPEC world (D12 ⚙). ⚠ Awaiting Bogdan's veto/confirmation. |

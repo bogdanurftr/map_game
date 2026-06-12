@@ -3,18 +3,9 @@ import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseGrid, lonLatToCell, wrapCol } from "../src/shared/grid";
+import { SPEC_POP_TARGETS_M as TARGETS } from "../scripts/team-assignment";
 
 const DATA = join(dirname(fileURLToPath(import.meta.url)), "..", "data");
-
-// SPEC §3 team ids / population targets in millions
-const TARGETS: Record<number, number> = {
-  1: 3020, // Orange
-  2: 2400, // Red
-  3: 2100, // Green
-  4: 390, // Yellow
-  5: 300, // Purple
-  6: 10, // L.Blue
-};
 
 interface Country {
   iso3: string;
@@ -49,7 +40,8 @@ describe("world data (M1 accept)", () => {
     // [lon, lat, expected cell value]
     const probes: [number, number, number, string][] = [
       [116.4, 39.9, 1, "Beijing → Orange"],
-      [77.2, 28.6, 1, "Delhi → Orange"],
+      [106.9, 47.9, 1, "Ulaanbaatar → Orange (A2)"],
+      [77.2, 28.6, 5, "Delhi → Purple (A2)"],
       [-77.0, 38.9, 2, "Washington → Red"],
       [37.6, 55.8, 2, "Moscow → Red"],
       [-47.9, -15.8, 2, "Brasília → Red"],

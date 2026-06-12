@@ -15,11 +15,11 @@ Americas, Europe incl. Russia & Orthodox "dark blue" countries (D1), Armenia,
 Georgia, Cyprus, Sub-Saharan Christian-majority Africa, Philippines,
 Timor-Leste, Oceania, Greenland.
 
-## 2. Orange — Hindu + Chinese-civilization bloc
+## 2. Orange — Chinese-civilization bloc (A2)
 
-China (+ Hong Kong, Macao), India, Nepal, Sri Lanka*, Singapore, Mauritius.
-*Sri Lanka is Buddhist-majority but Indian-sphere; assigned Orange to keep
-Purple within the SPEC §3 band (see §7).
+China (+ Hong Kong, Macao), Mongolia (A2), Nepal, Sri Lanka*, Singapore,
+Mauritius. *Sri Lanka: Indian-sphere tuning choice from the original
+reconstruction (see §7).
 
 ## 3. Green — Muslim world
 
@@ -29,9 +29,9 @@ Sahel belt (Mali, Niger, Chad, Burkina Faso, Senegal, Gambia, Guinea,
 Mauritania, Sierra Leone), Horn (Somalia, Somaliland, Djibouti, Eritrea),
 Sudan, Nigeria*, Ivory Coast*, Ethiopia* (* = O2 edge cases / tuning, §7).
 
-## 4. Purple — Japan + Buddhist belt (D4)
+## 4. Purple — Japan + Buddhist belt + India (D4 as amended by A2)
 
-Japan, Thailand, Myanmar, Cambodia, Laos, Bhutan, Mongolia.
+India (A2), Japan, Thailand, Myanmar, Cambodia, Laos, Bhutan.
 
 ## 5. Yellow — folk / unaffiliated bloc
 
@@ -48,10 +48,11 @@ Israel only. (Palestine → Green.)
 
 | Country | Team | Reasoning |
 |---|---|---|
+| India | **Purple** | Bogdan's correction, 2026-06-12 (A2) |
+| Mongolia | **Orange** | Bogdan's correction, 2026-06-12 (A2) |
 | S. Korea | Yellow | "no religion" plurality |
 | Vietnam | Yellow | folk-religion plurality |
 | Taiwan | Yellow | folk-religion plurality |
-| Mongolia | Purple | Buddhist majority |
 | Nigeria | Green | Muslim plurality, northern dominance |
 | Armenia | Red | Christian (Apostolic) |
 | Singapore | Orange | Chinese-majority |
@@ -62,6 +63,6 @@ Israel only. (Palestine → Green.)
 ## 8. Verification
 
 `scripts/build-world.ts` prints per-team totals vs SPEC §3 and fails the
-build outside ±5%. Current output: Orange +0.3%, Red +3.9%, Green −4.6%,
-Yellow −0.9%, Purple −0.9%, L.Blue −3.1% (Natural Earth POP_EST 2019 scaled
-×1.0707 to the 8.22B SPEC world — see Amendment A1).
+build outside ±5% (Natural Earth POP_EST 2019 scaled ×1.0707 to the 8.22B
+SPEC world — see Amendment A1). Orange/Purple targets retargeted by A2
+(India → Purple, Mongolia → Orange): Orange ~1.57B, Purple ~1.76B.

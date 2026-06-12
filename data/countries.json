@@ -1,11 +1,11 @@
 {
- "popScale": 1.0707,
+ "popScale": 1.072,
  "countries": [
   {
    "iso3": "ABW",
    "name": "Aruba",
    "team": 2,
-   "population": 113834,
+   "population": 113973,
    "centroid": [
     -69.983,
     12.521
@@ -15,7 +15,7 @@
    "iso3": "AFG",
    "name": "Afghanistan",
    "team": 3,
-   "population": 40732700,
+   "population": 40782253,
    "centroid": [
     66.005,
     33.835
@@ -25,7 +25,7 @@
    "iso3": "AGO",
    "name": "Angola",
    "team": 2,
-   "population": 34076510,
+   "population": 34117965,
    "centroid": [
     17.564,
     -12.332
@@ -35,7 +35,7 @@
    "iso3": "AIA",
    "name": "Anguilla",
    "team": 2,
-   "population": 15773,
+   "population": 15792,
    "centroid": [
     -63.065,
     18.224
@@ -45,7 +45,7 @@
    "iso3": "ALB",
    "name": "Albania",
    "team": 3,
-   "population": 3056087,
+   "population": 3059805,
    "centroid": [
     20.05,
     41.142
@@ -55,7 +55,7 @@
    "iso3": "ALD",
    "name": "Åland",
    "team": 2,
-   "population": 31998,
+   "population": 32037,
    "centroid": [
     19.944,
     60.231
@@ -65,7 +65,7 @@
    "iso3": "AND",
    "name": "Andorra",
    "team": 2,
-   "population": 82599,
+   "population": 82699,
    "centroid": [
     1.561,
     42.542
@@ -75,7 +75,7 @@
    "iso3": "ARE",
    "name": "United Arab Emirates",
    "team": 3,
-   "population": 10461663,
+   "population": 10474391,
    "centroid": [
     54.307,
     23.904
@@ -85,7 +85,7 @@
    "iso3": "ARG",
    "name": "Argentina",
    "team": 2,
-   "population": 48117526,
+   "population": 48176063,
    "centroid": [
     -65.156,
     -35.18
@@ -95,7 +95,7 @@
    "iso3": "ARM",
    "name": "Armenia",
    "team": 2,
-   "population": 3166951,
+   "population": 3170804,
    "centroid": [
     44.929,
     40.29
@@ -105,7 +105,7 @@
    "iso3": "ASM",
    "name": "American Samoa",
    "team": 2,
-   "population": 59225,
+   "population": 59297,
    "centroid": [
     -170.718,
     -14.304
@@ -115,7 +115,7 @@
    "iso3": "ATA",
    "name": "Antarctica",
    "team": 0,
-   "population": 4808,
+   "population": 4813,
    "centroid": [
     20.804,
     -80.56
@@ -145,7 +145,7 @@
    "iso3": "ATG",
    "name": "Antigua and Barb.",
    "team": 2,
-   "population": 103988,
+   "population": 104114,
    "centroid": [
     -61.79,
     17.078
@@ -155,7 +155,7 @@
    "iso3": "AUS",
    "name": "Australia",
    "team": 2,
-   "population": 27158493,
+   "population": 27191533,
    "centroid": [
     134.355,
     -25.573
@@ -165,7 +165,7 @@
    "iso3": "AUT",
    "name": "Austria",
    "team": 2,
-   "population": 9505001,
+   "population": 9516564,
    "centroid": [
     14.126,
     47.585
@@ -175,7 +175,7 @@
    "iso3": "AZE",
    "name": "Azerbaijan",
    "team": 3,
-   "population": 10732334,
+   "population": 10745390,
    "centroid": [
     47.664,
     40.344
@@ -185,7 +185,7 @@
    "iso3": "BDI",
    "name": "Burundi",
    "team": 2,
-   "population": 12346215,
+   "population": 12361234,
    "centroid": [
     29.875,
     -3.359
@@ -195,7 +195,7 @@
    "iso3": "BEL",
    "name": "Belgium",
    "team": 2,
-   "population": 12296399,
+   "population": 12311358,
    "centroid": [
     4.639,
     50.64
@@ -205,7 +205,7 @@
    "iso3": "BEN",
    "name": "Benin",
    "team": 4,
-   "population": 12635925,
+   "population": 12651297,
    "centroid": [
     2.328,
     9.642
@@ -215,7 +215,7 @@
    "iso3": "BFA",
    "name": "Burkina Faso",
    "team": 3,
-   "population": 21758844,
+   "population": 21785315,
    "centroid": [
     -1.755,
     12.27
@@ -225,7 +225,7 @@
    "iso3": "BGD",
    "name": "Bangladesh",
    "team": 3,
-   "population": 174579500,
+   "population": 174791884,
    "centroid": [
     90.224,
     23.898
@@ -235,7 +235,7 @@
    "iso3": "BGR",
    "name": "Bulgaria",
    "team": 2,
-   "population": 7469203,
+   "population": 7478290,
    "centroid": [
     25.216,
     42.769
@@ -245,7 +245,7 @@
    "iso3": "BHR",
    "name": "Bahrain",
    "team": 3,
-   "population": 1757263,
+   "population": 1759401,
    "centroid": [
     50.542,
     26.042
@@ -255,7 +255,7 @@
    "iso3": "BHS",
    "name": "Bahamas",
    "team": 2,
-   "population": 417033,
+   "population": 417540,
    "centroid": [
     -78.038,
     24.701
@@ -265,7 +265,7 @@
    "iso3": "BIH",
    "name": "Bosnia and Herz.",
    "team": 3,
-   "population": 3534502,
+   "population": 3538802,
    "centroid": [
     17.769,
     44.175
@@ -275,7 +275,7 @@
    "iso3": "BLM",
    "name": "St-Barthélemy",
    "team": 2,
-   "population": 10666,
+   "population": 10679,
    "centroid": [
     -62.841,
     17.899
@@ -285,7 +285,7 @@
    "iso3": "BLR",
    "name": "Belarus",
    "team": 2,
-   "population": 10136510,
+   "population": 10148841,
    "centroid": [
     28.032,
     53.531
@@ -295,7 +295,7 @@
    "iso3": "BLZ",
    "name": "Belize",
    "team": 2,
-   "population": 417965,
+   "population": 418474,
    "centroid": [
     -88.718,
     17.195
@@ -305,7 +305,7 @@
    "iso3": "BMU",
    "name": "Bermuda",
    "team": 2,
-   "population": 68439,
+   "population": 68523,
    "centroid": [
     -64.755,
     32.314
@@ -315,7 +315,7 @@
    "iso3": "BOL",
    "name": "Bolivia",
    "team": 2,
-   "population": 12327498,
+   "population": 12342495,
    "centroid": [
     -64.685,
     -16.708
@@ -325,7 +325,7 @@
    "iso3": "BRA",
    "name": "Brazil",
    "team": 2,
-   "population": 225978463,
+   "population": 226253376,
    "centroid": [
     -53.117,
     -10.84
@@ -335,7 +335,7 @@
    "iso3": "BRB",
    "name": "Barbados",
    "team": 2,
-   "population": 307328,
+   "population": 307702,
    "centroid": [
     -59.56,
     13.181
@@ -345,7 +345,7 @@
    "iso3": "BRN",
    "name": "Brunei",
    "team": 3,
-   "population": 463934,
+   "population": 464499,
    "centroid": [
     114.592,
     4.49
@@ -355,7 +355,7 @@
    "iso3": "BTN",
    "name": "Bhutan",
    "team": 5,
-   "population": 817071,
+   "population": 818065,
    "centroid": [
     90.402,
     27.411
@@ -365,7 +365,7 @@
    "iso3": "BWA",
    "name": "Botswana",
    "team": 2,
-   "population": 2466653,
+   "population": 2469654,
    "centroid": [
     23.799,
     -22.184
@@ -375,7 +375,7 @@
    "iso3": "CAF",
    "name": "Central African Rep.",
    "team": 2,
-   "population": 5080843,
+   "population": 5087025,
    "centroid": [
     20.468,
     6.568
@@ -385,7 +385,7 @@
    "iso3": "CAN",
    "name": "Canada",
    "team": 2,
-   "population": 40248200,
+   "population": 40297164,
    "centroid": [
     -102.366,
     57.935
@@ -395,7 +395,7 @@
    "iso3": "CHE",
    "name": "Switzerland",
    "team": 2,
-   "population": 9181387,
+   "population": 9192556,
    "centroid": [
     8.209,
     46.798
@@ -405,7 +405,7 @@
    "iso3": "CHL",
    "name": "Chile",
    "team": 2,
-   "population": 20292642,
+   "population": 20317329,
    "centroid": [
     -71.311,
     -35.748
@@ -415,7 +415,7 @@
    "iso3": "CHN",
    "name": "China",
    "team": 1,
-   "population": 1496584674,
+   "population": 1498405337,
    "centroid": [
     103.797,
     36.617
@@ -425,7 +425,7 @@
    "iso3": "CIV",
    "name": "Côte d'Ivoire",
    "team": 3,
-   "population": 27535646,
+   "population": 27569144,
    "centroid": [
     -5.57,
     7.629
@@ -435,7 +435,7 @@
    "iso3": "CMR",
    "name": "Cameroon",
    "team": 2,
-   "population": 27706788,
+   "population": 27740495,
    "centroid": [
     12.74,
     5.691
@@ -445,7 +445,7 @@
    "iso3": "COD",
    "name": "Dem. Rep. Congo",
    "team": 2,
-   "population": 92929841,
+   "population": 93042894,
    "centroid": [
     23.644,
     -2.877
@@ -455,7 +455,7 @@
    "iso3": "COG",
    "name": "Congo",
    "team": 2,
-   "population": 5761107,
+   "population": 5768116,
    "centroid": [
     15.22,
     -0.838
@@ -465,7 +465,7 @@
    "iso3": "COK",
    "name": "Cook Is.",
    "team": 2,
-   "population": 18694,
+   "population": 18717,
    "centroid": [
     -159.787,
     -21.219
@@ -475,7 +475,7 @@
    "iso3": "COL",
    "name": "Colombia",
    "team": 2,
-   "population": 53900286,
+   "population": 53965859,
    "centroid": [
     -73.081,
     3.914
@@ -485,7 +485,7 @@
    "iso3": "COM",
    "name": "Comoros",
    "team": 3,
-   "population": 911075,
+   "population": 912183,
    "centroid": [
     43.339,
     -11.654
@@ -495,7 +495,7 @@
    "iso3": "CPV",
    "name": "Cabo Verde",
    "team": 2,
-   "population": 588836,
+   "population": 589552,
    "centroid": [
     -23.637,
     15.082
@@ -505,7 +505,7 @@
    "iso3": "CRI",
    "name": "Costa Rica",
    "team": 2,
-   "population": 5404609,
+   "population": 5411183,
    "centroid": [
     -84.192,
     9.976
@@ -515,7 +515,7 @@
    "iso3": "CUB",
    "name": "Cuba",
    "team": 2,
-   "population": 12135176,
+   "population": 12149939,
    "centroid": [
     -78.943,
     21.614
@@ -525,7 +525,7 @@
    "iso3": "CUW",
    "name": "Curaçao",
    "team": 2,
-   "population": 168682,
+   "population": 168887,
    "centroid": [
     -68.971,
     12.196
@@ -535,7 +535,7 @@
    "iso3": "CYM",
    "name": "Cayman Is.",
    "team": 2,
-   "population": 69542,
+   "population": 69627,
    "centroid": [
     -81.285,
     19.321
@@ -545,7 +545,7 @@
    "iso3": "CYN",
    "name": "N. Cyprus",
    "team": 3,
-   "population": 349060,
+   "population": 349485,
    "centroid": [
     33.568,
     35.263
@@ -555,7 +555,7 @@
    "iso3": "CYP",
    "name": "Cyprus",
    "team": 2,
-   "population": 1283358,
+   "population": 1284919,
    "centroid": [
     33.006,
     34.917
@@ -565,7 +565,7 @@
    "iso3": "CZE",
    "name": "Czechia",
    "team": 4,
-   "population": 11424448,
+   "population": 11438347,
    "centroid": [
     15.312,
     49.733
@@ -575,7 +575,7 @@
    "iso3": "DEU",
    "name": "Germany",
    "team": 2,
-   "population": 89013335,
+   "population": 89121623,
    "centroid": [
     10.372,
     51.088
@@ -585,7 +585,7 @@
    "iso3": "DJI",
    "name": "Djibouti",
    "team": 3,
-   "population": 1042426,
+   "population": 1043695,
    "centroid": [
     42.561,
     11.749
@@ -595,7 +595,7 @@
    "iso3": "DMA",
    "name": "Dominica",
    "team": 2,
-   "population": 76887,
+   "population": 76981,
    "centroid": [
     -61.358,
     15.439
@@ -605,7 +605,7 @@
    "iso3": "DNK",
    "name": "Denmark",
    "team": 2,
-   "population": 6230138,
+   "population": 6237717,
    "centroid": [
     9.356,
     56.24
@@ -615,7 +615,7 @@
    "iso3": "DOM",
    "name": "Dominican Rep.",
    "team": 2,
-   "population": 11498596,
+   "population": 11512584,
    "centroid": [
     -70.506,
     18.894
@@ -625,7 +625,7 @@
    "iso3": "DZA",
    "name": "Algeria",
    "team": 3,
-   "population": 46098483,
+   "population": 46154564,
    "centroid": [
     2.617,
     28.159
@@ -635,7 +635,7 @@
    "iso3": "ECU",
    "name": "Ecuador",
    "team": 2,
-   "population": 18602617,
+   "population": 18625248,
    "centroid": [
     -78.39,
     -1.445
@@ -645,7 +645,7 @@
    "iso3": "EGY",
    "name": "Egypt",
    "team": 3,
-   "population": 107489189,
+   "population": 107619954,
    "centroid": [
     29.862,
     26.496
@@ -655,7 +655,7 @@
    "iso3": "ERI",
    "name": "Eritrea",
    "team": 3,
-   "population": 6511359,
+   "population": 6519281,
    "centroid": [
     38.838,
     15.36
@@ -665,7 +665,7 @@
    "iso3": "ESP",
    "name": "Spain",
    "team": 2,
-   "population": 50406835,
+   "population": 50468157,
    "centroid": [
     -3.563,
     40.4
@@ -675,7 +675,7 @@
    "iso3": "EST",
    "name": "Estonia",
    "team": 4,
-   "population": 1420429,
+   "population": 1422157,
    "centroid": [
     25.832,
     58.686
@@ -685,7 +685,7 @@
    "iso3": "ETH",
    "name": "Ethiopia",
    "team": 3,
-   "population": 120006804,
+   "population": 120152797,
    "centroid": [
     39.601,
     8.623
@@ -695,7 +695,7 @@
    "iso3": "FIN",
    "name": "Finland",
    "team": 2,
-   "population": 5910803,
+   "population": 5917993,
    "centroid": [
     26.284,
     64.505
@@ -705,7 +705,7 @@
    "iso3": "FJI",
    "name": "Fiji",
    "team": 2,
-   "population": 952905,
+   "population": 954065,
    "centroid": [
     177.973,
     -17.823
@@ -715,7 +715,7 @@
    "iso3": "FLK",
    "name": "Falkland Is.",
    "team": 2,
-   "population": 3638,
+   "population": 3643,
    "centroid": [
     -58.761,
     -51.745
@@ -725,7 +725,7 @@
    "iso3": "FRA",
    "name": "France",
    "team": 2,
-   "population": 71803479,
+   "population": 71890831,
    "centroid": [
     2.453,
     46.62
@@ -735,7 +735,7 @@
    "iso3": "FRO",
    "name": "Faeroe Is.",
    "team": 2,
-   "population": 52121,
+   "population": 52185,
    "centroid": [
     -6.885,
     62.17
@@ -745,7 +745,7 @@
    "iso3": "FSM",
    "name": "Micronesia",
    "team": 2,
-   "population": 121866,
+   "population": 122014,
    "centroid": [
     158.233,
     6.886
@@ -755,7 +755,7 @@
    "iso3": "GAB",
    "name": "Gabon",
    "team": 2,
-   "population": 2326260,
+   "population": 2329090,
    "centroid": [
     11.789,
     -0.587
@@ -765,7 +765,7 @@
    "iso3": "GBR",
    "name": "United Kingdom",
    "team": 2,
-   "population": 71562047,
+   "population": 71649105,
    "centroid": [
     -2.507,
     53.938
@@ -775,7 +775,7 @@
    "iso3": "GEO",
    "name": "Georgia",
    "team": 2,
-   "population": 3983549,
+   "population": 3988396,
    "centroid": [
     43.508,
     42.169
@@ -785,7 +785,7 @@
    "iso3": "GGY",
    "name": "Guernsey",
    "team": 2,
-   "population": 67234,
+   "population": 67315,
    "centroid": [
     -2.572,
     49.468
@@ -795,7 +795,7 @@
    "iso3": "GHA",
    "name": "Ghana",
    "team": 2,
-   "population": 32569513,
+   "population": 32609135,
    "centroid": [
     -1.217,
     7.953
@@ -805,7 +805,7 @@
    "iso3": "GIN",
    "name": "Guinea",
    "team": 3,
-   "population": 13674641,
+   "population": 13691277,
    "centroid": [
     -10.941,
     10.436
@@ -815,7 +815,7 @@
    "iso3": "GMB",
    "name": "Gambia",
    "team": 3,
-   "population": 2513775,
+   "population": 2516833,
    "centroid": [
     -15.396,
     13.45
@@ -825,7 +825,7 @@
    "iso3": "GNB",
    "name": "Guinea-Bissau",
    "team": 4,
-   "population": 2056802,
+   "population": 2059304,
    "centroid": [
     -14.924,
     12.064
@@ -835,7 +835,7 @@
    "iso3": "GNQ",
    "name": "Eq. Guinea",
    "team": 2,
-   "population": 1451904,
+   "population": 1453670,
    "centroid": [
     10.47,
     1.565
@@ -845,7 +845,7 @@
    "iso3": "GRC",
    "name": "Greece",
    "team": 2,
-   "population": 11474359,
+   "population": 11488318,
    "centroid": [
     22.585,
     39.479
@@ -855,7 +855,7 @@
    "iso3": "GRD",
    "name": "Grenada",
    "team": 2,
-   "population": 119926,
+   "population": 120072,
    "centroid": [
     -61.682,
     12.117
@@ -865,7 +865,7 @@
    "iso3": "GRL",
    "name": "Greenland",
    "team": 2,
-   "population": 60202,
+   "population": 60275,
    "centroid": [
     -41.356,
     74.718
@@ -875,7 +875,7 @@
    "iso3": "GTM",
    "name": "Guatemala",
    "team": 2,
-   "population": 17778539,
+   "population": 17800168,
    "centroid": [
     -90.365,
     15.694
@@ -885,7 +885,7 @@
    "iso3": "GUM",
    "name": "Guam",
    "team": 2,
-   "population": 179128,
+   "population": 179346,
    "centroid": [
     144.768,
     13.442
@@ -895,7 +895,7 @@
    "iso3": "GUY",
    "name": "Guyana",
    "team": 2,
-   "population": 838136,
+   "population": 839156,
    "centroid": [
     -58.982,
     4.794
@@ -905,7 +905,7 @@
    "iso3": "HKG",
    "name": "Hong Kong",
    "team": 1,
-   "population": 8038448,
+   "population": 8048227,
    "centroid": [
     114.139,
     22.439
@@ -925,7 +925,7 @@
    "iso3": "HND",
    "name": "Honduras",
    "team": 2,
-   "population": 10435525,
+   "population": 10448220,
    "centroid": [
     -86.616,
     14.824
@@ -935,7 +935,7 @@
    "iso3": "HRV",
    "name": "Croatia",
    "team": 2,
-   "population": 4355221,
+   "population": 4360520,
    "centroid": [
     16.424,
     45.159
@@ -945,7 +945,7 @@
    "iso3": "HTI",
    "name": "Haiti",
    "team": 2,
-   "population": 12059789,
+   "population": 12074461,
    "centroid": [
     -72.676,
     18.928
@@ -955,7 +955,7 @@
    "iso3": "HUN",
    "name": "Hungary",
    "team": 2,
-   "population": 10461042,
+   "population": 10473769,
    "centroid": [
     19.396,
     47.163
@@ -965,7 +965,7 @@
    "iso3": "IDN",
    "name": "Indonesia",
    "team": 3,
-   "population": 289768714,
+   "population": 290121230,
    "centroid": [
     114.014,
     -0.191
@@ -975,7 +975,7 @@
    "iso3": "IMN",
    "name": "Isle of Man",
    "team": 2,
-   "population": 90567,
+   "population": 90677,
    "centroid": [
     -4.539,
     54.224
@@ -984,8 +984,8 @@
   {
    "iso3": "IND",
    "name": "India",
-   "team": 1,
-   "population": 1463073566,
+   "team": 5,
+   "population": 1464853461,
    "centroid": [
     79.586,
     22.909
@@ -995,7 +995,7 @@
    "iso3": "IOA",
    "name": "Indian Ocean Ter.",
    "team": 2,
-   "population": 2556,
+   "population": 2559,
    "centroid": [
     105.662,
     -10.493
@@ -1005,7 +1005,7 @@
    "iso3": "IOT",
    "name": "Br. Indian Ocean Ter.",
    "team": 2,
-   "population": 3212,
+   "population": 3216,
    "centroid": [
     72.445,
     -7.331
@@ -1015,7 +1015,7 @@
    "iso3": "IRL",
    "name": "Ireland",
    "team": 2,
-   "population": 5290985,
+   "population": 5297422,
    "centroid": [
     -8.135,
     53.174
@@ -1025,7 +1025,7 @@
    "iso3": "IRN",
    "name": "Iran",
    "team": 3,
-   "population": 88778958,
+   "population": 88886961,
    "centroid": [
     54.273,
     32.58
@@ -1035,7 +1035,7 @@
    "iso3": "IRQ",
    "name": "Iraq",
    "team": 3,
-   "population": 42090425,
+   "population": 42141630,
    "centroid": [
     43.744,
     33.04
@@ -1045,7 +1045,7 @@
    "iso3": "ISL",
    "name": "Iceland",
    "team": 2,
-   "population": 386871,
+   "population": 387342,
    "centroid": [
     -18.574,
     64.996
@@ -1055,7 +1055,7 @@
    "iso3": "ISR",
    "name": "Israel",
    "team": 6,
-   "population": 9693700,
+   "population": 9705493,
    "centroid": [
     34.995,
     31.443
@@ -1065,7 +1065,7 @@
    "iso3": "ITA",
    "name": "Italy",
    "team": 2,
-   "population": 64562632,
+   "population": 64641175,
    "centroid": [
     12.149,
     43.529
@@ -1075,7 +1075,7 @@
    "iso3": "JAM",
    "name": "Jamaica",
    "team": 2,
-   "population": 3156830,
+   "population": 3160671,
    "centroid": [
     -77.315,
     18.157
@@ -1085,7 +1085,7 @@
    "iso3": "JEY",
    "name": "Jersey",
    "team": 2,
-   "population": 115425,
+   "population": 115566,
    "centroid": [
     -2.127,
     49.218
@@ -1095,7 +1095,7 @@
    "iso3": "JOR",
    "name": "Jordan",
    "team": 3,
-   "population": 10816254,
+   "population": 10829412,
    "centroid": [
     36.771,
     31.246
@@ -1105,7 +1105,7 @@
    "iso3": "JPN",
    "name": "Japan",
    "team": 5,
-   "population": 135196489,
+   "population": 135360962,
    "centroid": [
     137.985,
     36.65
@@ -1115,7 +1115,7 @@
    "iso3": "KAS",
    "name": "Siachen Glacier",
    "team": 3,
-   "population": 6424,
+   "population": 6432,
    "centroid": [
     77.18,
     35.392
@@ -1125,7 +1125,7 @@
    "iso3": "KAZ",
    "name": "Kazakhstan",
    "team": 3,
-   "population": 19823543,
+   "population": 19847660,
    "centroid": [
     67.293,
     48.157
@@ -1135,7 +1135,7 @@
    "iso3": "KEN",
    "name": "Kenya",
    "team": 2,
-   "population": 56292880,
+   "population": 56361362,
    "centroid": [
     37.795,
     0.6
@@ -1145,7 +1145,7 @@
    "iso3": "KGZ",
    "name": "Kyrgyzstan",
    "team": 3,
-   "population": 6913639,
+   "population": 6922050,
    "centroid": [
     74.532,
     41.458
@@ -1155,7 +1155,7 @@
    "iso3": "KHM",
    "name": "Cambodia",
    "team": 5,
-   "population": 17652745,
+   "population": 17674220,
    "centroid": [
     104.908,
     12.721
@@ -1165,7 +1165,7 @@
    "iso3": "KIR",
    "name": "Kiribati",
    "team": 2,
-   "population": 125925,
+   "population": 126078,
    "centroid": [
     -157.374,
     1.854
@@ -1175,7 +1175,7 @@
    "iso3": "KNA",
    "name": "St. Kitts and Nevis",
    "team": 2,
-   "population": 56571,
+   "population": 56640,
    "centroid": [
     -62.748,
     17.327
@@ -1185,7 +1185,7 @@
    "iso3": "KOR",
    "name": "South Korea",
    "team": 4,
-   "population": 55366826,
+   "population": 55434183,
    "centroid": [
     127.871,
     36.461
@@ -1195,7 +1195,7 @@
    "iso3": "KOS",
    "name": "Kosovo",
    "team": 3,
-   "population": 1921167,
+   "population": 1923504,
    "centroid": [
     20.872,
     42.571
@@ -1205,7 +1205,7 @@
    "iso3": "KWT",
    "name": "Kuwait",
    "team": 3,
-   "population": 4504678,
+   "population": 4510158,
    "centroid": [
     47.562,
     29.317
@@ -1215,7 +1215,7 @@
    "iso3": "LAO",
    "name": "Laos",
    "team": 5,
-   "population": 7676598,
+   "population": 7685937,
    "centroid": [
     103.738,
     18.502
@@ -1225,7 +1225,7 @@
    "iso3": "LBN",
    "name": "Lebanon",
    "team": 3,
-   "population": 7340663,
+   "population": 7349593,
    "centroid": [
     35.88,
     33.923
@@ -1235,7 +1235,7 @@
    "iso3": "LBR",
    "name": "Liberia",
    "team": 2,
-   "population": 5286627,
+   "population": 5293059,
    "centroid": [
     -9.322,
     6.453
@@ -1245,7 +1245,7 @@
    "iso3": "LBY",
    "name": "Libya",
    "team": 3,
-   "population": 7256866,
+   "population": 7265695,
    "centroid": [
     18.009,
     27.031
@@ -1255,7 +1255,7 @@
    "iso3": "LCA",
    "name": "Saint Lucia",
    "team": 2,
-   "population": 195720,
+   "population": 195958,
    "centroid": [
     -60.97,
     13.895
@@ -1265,7 +1265,7 @@
    "iso3": "LIE",
    "name": "Liechtenstein",
    "team": 2,
-   "population": 40708,
+   "population": 40758,
    "centroid": [
     9.536,
     47.137
@@ -1275,7 +1275,7 @@
    "iso3": "LKA",
    "name": "Sri Lanka",
    "team": 1,
-   "population": 23345271,
+   "population": 23373672,
    "centroid": [
     80.703,
     7.609
@@ -1285,7 +1285,7 @@
    "iso3": "LSO",
    "name": "Lesotho",
    "team": 2,
-   "population": 2275602,
+   "population": 2278371,
    "centroid": [
     28.227,
     -29.58
@@ -1295,7 +1295,7 @@
    "iso3": "LTU",
    "name": "Lithuania",
    "team": 2,
-   "population": 2983976,
+   "population": 2987606,
    "centroid": [
     23.892,
     55.326
@@ -1305,7 +1305,7 @@
    "iso3": "LUX",
    "name": "Luxembourg",
    "team": 2,
-   "population": 663745,
+   "population": 664553,
    "centroid": [
     6.072,
     49.767
@@ -1315,7 +1315,7 @@
    "iso3": "LVA",
    "name": "Latvia",
    "team": 2,
-   "population": 2048093,
+   "population": 2050585,
    "centroid": [
     24.912,
     56.851
@@ -1325,7 +1325,7 @@
    "iso3": "MAC",
    "name": "Macao",
    "team": 1,
-   "population": 685748,
+   "population": 686582,
    "centroid": [
     113.509,
     22.223
@@ -1335,7 +1335,7 @@
    "iso3": "MAF",
    "name": "St-Martin",
    "team": 2,
-   "population": 40690,
+   "population": 40740,
    "centroid": [
     -63.06,
     18.089
@@ -1345,7 +1345,7 @@
    "iso3": "MAR",
    "name": "Morocco",
    "team": 3,
-   "population": 39051660,
+   "population": 39099168,
    "centroid": [
     -8.456,
     29.838
@@ -1355,7 +1355,7 @@
    "iso3": "MCO",
    "name": "Monaco",
    "team": 2,
-   "population": 41720,
+   "population": 41771,
    "centroid": [
     7.406,
     43.753
@@ -1365,7 +1365,7 @@
    "iso3": "MDA",
    "name": "Moldova",
    "team": 2,
-   "population": 2845629,
+   "population": 2849091,
    "centroid": [
     28.457,
     47.195
@@ -1375,7 +1375,7 @@
    "iso3": "MDG",
    "name": "Madagascar",
    "team": 4,
-   "population": 28877025,
+   "population": 28912156,
    "centroid": [
     46.703,
     -19.375
@@ -1385,7 +1385,7 @@
    "iso3": "MDV",
    "name": "Maldives",
    "team": 3,
-   "population": 568511,
+   "population": 569202,
    "centroid": [
     73.503,
     4.197
@@ -1395,7 +1395,7 @@
    "iso3": "MEX",
    "name": "Mexico",
    "team": 2,
-   "population": 136599794,
+   "population": 136765974,
    "centroid": [
     -102.505,
     23.941
@@ -1405,7 +1405,7 @@
    "iso3": "MHL",
    "name": "Marshall Is.",
    "team": 2,
-   "population": 62950,
+   "population": 63026,
    "centroid": [
     171.186,
     7.106
@@ -1415,7 +1415,7 @@
    "iso3": "MKD",
    "name": "North Macedonia",
    "team": 2,
-   "population": 2230836,
+   "population": 2233550,
    "centroid": [
     21.682,
     41.595
@@ -1425,7 +1425,7 @@
    "iso3": "MLI",
    "name": "Mali",
    "team": 3,
-   "population": 21048574,
+   "population": 21074181,
    "centroid": [
     -3.543,
     17.346
@@ -1435,7 +1435,7 @@
    "iso3": "MLT",
    "name": "Malta",
    "team": 2,
-   "population": 538209,
+   "population": 538864,
    "centroid": [
     14.443,
     35.89
@@ -1445,7 +1445,7 @@
    "iso3": "MMR",
    "name": "Myanmar",
    "team": 5,
-   "population": 57868412,
+   "population": 57938811,
    "centroid": [
     96.489,
     21.221
@@ -1455,7 +1455,7 @@
    "iso3": "MNE",
    "name": "Montenegro",
    "team": 2,
-   "population": 666145,
+   "population": 666955,
    "centroid": [
     19.239,
     42.789
@@ -1464,8 +1464,8 @@
   {
    "iso3": "MNG",
    "name": "Mongolia",
-   "team": 5,
-   "population": 3453305,
+   "team": 1,
+   "population": 3457506,
    "centroid": [
     103.053,
     46.827
@@ -1475,7 +1475,7 @@
    "iso3": "MNP",
    "name": "N. Mariana Is.",
    "team": 2,
-   "population": 61263,
+   "population": 61338,
    "centroid": [
     145.744,
     15.181
@@ -1485,7 +1485,7 @@
    "iso3": "MOZ",
    "name": "Mozambique",
    "team": 4,
-   "population": 32514028,
+   "population": 32553582,
    "centroid": [
     35.533,
     -17.273
@@ -1495,7 +1495,7 @@
    "iso3": "MRT",
    "name": "Mauritania",
    "team": 3,
-   "population": 4845829,
+   "population": 4851724,
    "centroid": [
     -10.347,
     20.257
@@ -1505,7 +1505,7 @@
    "iso3": "MSR",
    "name": "Montserrat",
    "team": 2,
-   "population": 4978,
+   "population": 4984,
    "centroid": [
     -62.185,
     16.739
@@ -1515,7 +1515,7 @@
    "iso3": "MUS",
    "name": "Mauritius",
    "team": 1,
-   "population": 1355243,
+   "population": 1356892,
    "centroid": [
     57.571,
     -20.278
@@ -1525,7 +1525,7 @@
    "iso3": "MWI",
    "name": "Malawi",
    "team": 2,
-   "population": 19946482,
+   "population": 19970748,
    "centroid": [
     34.289,
     -13.22
@@ -1535,7 +1535,7 @@
    "iso3": "MYS",
    "name": "Malaysia",
    "team": 3,
-   "population": 34209797,
+   "population": 34251415,
    "centroid": [
     114.724,
     3.615
@@ -1545,7 +1545,7 @@
    "iso3": "NAM",
    "name": "Namibia",
    "team": 2,
-   "population": 2670985,
+   "population": 2674234,
    "centroid": [
     17.21,
     -22.13
@@ -1555,7 +1555,7 @@
    "iso3": "NCL",
    "name": "New Caledonia",
    "team": 2,
-   "population": 308158,
+   "population": 308533,
    "centroid": [
     165.487,
     -21.325
@@ -1565,7 +1565,7 @@
    "iso3": "NER",
    "name": "Niger",
    "team": 3,
-   "population": 24959637,
+   "population": 24990001,
    "centroid": [
     9.385,
     17.419
@@ -1575,7 +1575,7 @@
    "iso3": "NFK",
    "name": "Norfolk Island",
    "team": 2,
-   "population": 2322,
+   "population": 2325,
    "centroid": [
     167.949,
     -29.051
@@ -1585,7 +1585,7 @@
    "iso3": "NGA",
    "name": "Nigeria",
    "team": 3,
-   "population": 215179090,
+   "population": 215440865,
    "centroid": [
     8.09,
     9.595
@@ -1595,7 +1595,7 @@
    "iso3": "NIC",
    "name": "Nicaragua",
    "team": 2,
-   "population": 7008509,
+   "population": 7017035,
    "centroid": [
     -85.031,
     12.847
@@ -1605,7 +1605,7 @@
    "iso3": "NIU",
    "name": "Niue",
    "team": 2,
-   "population": 1735,
+   "population": 1737,
    "centroid": [
     -169.87,
     -19.049
@@ -1615,7 +1615,7 @@
    "iso3": "NLD",
    "name": "Netherlands",
    "team": 2,
-   "population": 18558918,
+   "population": 18581495,
    "centroid": [
     5.642,
     52.282
@@ -1625,7 +1625,7 @@
    "iso3": "NOR",
    "name": "Norway",
    "team": 2,
-   "population": 5726188,
+   "population": 5733154,
    "centroid": [
     13.908,
     64.238
@@ -1635,7 +1635,7 @@
    "iso3": "NPL",
    "name": "Nepal",
    "team": 1,
-   "population": 30632394,
+   "population": 30669660,
    "centroid": [
     83.916,
     28.249
@@ -1645,7 +1645,7 @@
    "iso3": "NRU",
    "name": "Nauru",
    "team": 2,
-   "population": 13471,
+   "population": 13487,
    "centroid": [
     166.933,
     -0.519
@@ -1655,7 +1655,7 @@
    "iso3": "NZL",
    "name": "New Zealand",
    "team": 2,
-   "population": 5264812,
+   "population": 5271217,
    "centroid": [
     170.528,
     -43.973
@@ -1665,7 +1665,7 @@
    "iso3": "OMN",
    "name": "Oman",
    "team": 3,
-   "population": 5326900,
+   "population": 5333380,
    "centroid": [
     56.085,
     20.575
@@ -1675,7 +1675,7 @@
    "iso3": "PAK",
    "name": "Pakistan",
    "team": 3,
-   "population": 231884423,
+   "population": 232166521,
    "centroid": [
     69.34,
     29.95
@@ -1685,7 +1685,7 @@
    "iso3": "PAN",
    "name": "Panama",
    "team": 2,
-   "population": 4546818,
+   "population": 4552349,
    "centroid": [
     -80.112,
     8.524
@@ -1705,7 +1705,7 @@
    "iso3": "PER",
    "name": "Peru",
    "team": 2,
-   "population": 34810133,
+   "population": 34852482,
    "centroid": [
     -74.382,
     -9.153
@@ -1715,7 +1715,7 @@
    "iso3": "PHL",
    "name": "Philippines",
    "team": 2,
-   "population": 115764422,
+   "population": 115905255,
    "centroid": [
     121.416,
     15.957
@@ -1725,7 +1725,7 @@
    "iso3": "PLW",
    "name": "Palau",
    "team": 2,
-   "population": 19282,
+   "population": 19305,
    "centroid": [
     134.58,
     7.513
@@ -1735,7 +1735,7 @@
    "iso3": "PNG",
    "name": "Papua New Guinea",
    "team": 2,
-   "population": 9396902,
+   "population": 9408333,
    "centroid": [
     144.244,
     -6.606
@@ -1745,7 +1745,7 @@
    "iso3": "POL",
    "name": "Poland",
    "team": 2,
-   "population": 40656806,
+   "population": 40706267,
    "centroid": [
     19.39,
     52.128
@@ -1755,7 +1755,7 @@
    "iso3": "PRI",
    "name": "Puerto Rico",
    "team": 2,
-   "population": 3419605,
+   "population": 3423765,
    "centroid": [
     -66.482,
     18.23
@@ -1765,7 +1765,7 @@
    "iso3": "PRK",
    "name": "North Korea",
    "team": 4,
-   "population": 27481699,
+   "population": 27515132,
    "centroid": [
     127.193,
     40.154
@@ -1775,7 +1775,7 @@
    "iso3": "PRT",
    "name": "Portugal",
    "team": 2,
-   "population": 10995841,
+   "population": 11009218,
    "centroid": [
     -7.978,
     39.677
@@ -1785,7 +1785,7 @@
    "iso3": "PRY",
    "name": "Paraguay",
    "team": 2,
-   "population": 7542950,
+   "population": 7552126,
    "centroid": [
     -58.4,
     -23.228
@@ -1795,7 +1795,7 @@
    "iso3": "PSX",
    "name": "Palestine",
    "team": 3,
-   "population": 5016729,
+   "population": 5022832,
    "centroid": [
     35.248,
     31.948
@@ -1805,7 +1805,7 @@
    "iso3": "PYF",
    "name": "Fr. Polynesia",
    "team": 2,
-   "population": 299043,
+   "population": 299407,
    "centroid": [
     -149.42,
     -17.663
@@ -1815,7 +1815,7 @@
    "iso3": "QAT",
    "name": "Qatar",
    "team": 3,
-   "population": 3032398,
+   "population": 3036087,
    "centroid": [
     51.185,
     25.306
@@ -1825,7 +1825,7 @@
    "iso3": "ROU",
    "name": "Romania",
    "team": 2,
-   "population": 20725761,
+   "population": 20750975,
    "centroid": [
     24.973,
     45.852
@@ -1835,7 +1835,7 @@
    "iso3": "RUS",
    "name": "Russia",
    "team": 2,
-   "population": 154586035,
+   "population": 154774096,
    "centroid": [
     99.062,
     61.661
@@ -1845,7 +1845,7 @@
    "iso3": "RWA",
    "name": "Rwanda",
    "team": 2,
-   "population": 13520138,
+   "population": 13536586,
    "centroid": [
     29.92,
     -1.99
@@ -1855,7 +1855,7 @@
    "iso3": "SAH",
    "name": "W. Sahara",
    "team": 3,
-   "population": 645925,
+   "population": 646711,
    "centroid": [
     -12.22,
     24.23
@@ -1865,7 +1865,7 @@
    "iso3": "SAU",
    "name": "Saudi Arabia",
    "team": 3,
-   "population": 36692569,
+   "population": 36737207,
    "centroid": [
     44.539,
     24.125
@@ -1875,7 +1875,7 @@
    "iso3": "SDN",
    "name": "Sudan",
    "team": 3,
-   "population": 45841703,
+   "population": 45897471,
    "centroid": [
     29.94,
     15.99
@@ -1885,7 +1885,7 @@
    "iso3": "SDS",
    "name": "S. Sudan",
    "team": 4,
-   "population": 11844610,
+   "population": 11859019,
    "centroid": [
     30.248,
     7.309
@@ -1895,7 +1895,7 @@
    "iso3": "SEN",
    "name": "Senegal",
    "team": 3,
-   "population": 17449114,
+   "population": 17470342,
    "centroid": [
     -14.473,
     14.366
@@ -1905,7 +1905,7 @@
    "iso3": "SGP",
    "name": "Singapore",
    "team": 1,
-   "population": 6107020,
+   "population": 6114450,
    "centroid": [
     103.817,
     1.359
@@ -1925,7 +1925,7 @@
    "iso3": "SHN",
    "name": "Saint Helena",
    "team": 2,
-   "population": 4855,
+   "population": 4861,
    "centroid": [
     -5.716,
     -15.959
@@ -1935,7 +1935,7 @@
    "iso3": "SLB",
    "name": "Solomon Is.",
    "team": 2,
-   "population": 717204,
+   "population": 718077,
    "centroid": [
     160.169,
     -9.624
@@ -1945,7 +1945,7 @@
    "iso3": "SLE",
    "name": "Sierra Leone",
    "team": 3,
-   "population": 8365896,
+   "population": 8376073,
    "centroid": [
     -11.785,
     8.572
@@ -1955,7 +1955,7 @@
    "iso3": "SLV",
    "name": "El Salvador",
    "team": 2,
-   "population": 6910056,
+   "population": 6918462,
    "centroid": [
     -88.872,
     13.739
@@ -1965,7 +1965,7 @@
    "iso3": "SMR",
    "name": "San Marino",
    "team": 2,
-   "population": 36255,
+   "population": 36299,
    "centroid": [
     12.459,
     43.942
@@ -1975,7 +1975,7 @@
    "iso3": "SOL",
    "name": "Somaliland",
    "team": 3,
-   "population": 5456644,
+   "population": 5463282,
    "centroid": [
     46.252,
     9.733
@@ -1985,7 +1985,7 @@
    "iso3": "SOM",
    "name": "Somalia",
    "team": 3,
-   "population": 10913288,
+   "population": 10926564,
    "centroid": [
     45.707,
     4.751
@@ -1995,7 +1995,7 @@
    "iso3": "SPM",
    "name": "St. Pierre and Miquelon",
    "team": 2,
-   "population": 6421,
+   "population": 6429,
    "centroid": [
     -56.327,
     46.946
@@ -2005,7 +2005,7 @@
    "iso3": "SRB",
    "name": "Serbia",
    "team": 2,
-   "population": 7436239,
+   "population": 7445286,
    "centroid": [
     20.79,
     44.222
@@ -2015,7 +2015,7 @@
    "iso3": "STP",
    "name": "São Tomé and Principe",
    "team": 2,
-   "population": 230268,
+   "population": 230548,
    "centroid": [
     6.607,
     0.238
@@ -2025,7 +2025,7 @@
    "iso3": "SUR",
    "name": "Suriname",
    "team": 2,
-   "population": 622487,
+   "population": 623244,
    "centroid": [
     -55.912,
     4.131
@@ -2035,7 +2035,7 @@
    "iso3": "SVK",
    "name": "Slovakia",
    "team": 2,
-   "population": 5839876,
+   "population": 5846980,
    "centroid": [
     19.479,
     48.705
@@ -2045,7 +2045,7 @@
    "iso3": "SVN",
    "name": "Slovenia",
    "team": 2,
-   "population": 2235640,
+   "population": 2238360,
    "centroid": [
     14.804,
     46.116
@@ -2055,7 +2055,7 @@
    "iso3": "SWE",
    "name": "Sweden",
    "team": 2,
-   "population": 11013011,
+   "population": 11026409,
    "centroid": [
     16.735,
     62.825
@@ -2065,7 +2065,7 @@
    "iso3": "SWZ",
    "name": "eSwatini",
    "team": 2,
-   "population": 1229345,
+   "population": 1230840,
    "centroid": [
     31.482,
     -26.558
@@ -2075,7 +2075,7 @@
    "iso3": "SXM",
    "name": "Sint Maarten",
    "team": 2,
-   "population": 43614,
+   "population": 43667,
    "centroid": [
     -63.057,
     18.051
@@ -2085,7 +2085,7 @@
    "iso3": "SYC",
    "name": "Seychelles",
    "team": 2,
-   "population": 104531,
+   "population": 104658,
    "centroid": [
     55.476,
     -4.661
@@ -2095,7 +2095,7 @@
    "iso3": "SYR",
    "name": "Syria",
    "team": 3,
-   "population": 18277619,
+   "population": 18299855,
    "centroid": [
     38.505,
     35.023
@@ -2105,7 +2105,7 @@
    "iso3": "TCA",
    "name": "Turks and Caicos Is.",
    "team": 2,
-   "population": 40893,
+   "population": 40942,
    "centroid": [
     -71.741,
     21.812
@@ -2115,7 +2115,7 @@
    "iso3": "TCD",
    "name": "Chad",
    "team": 3,
-   "population": 17074905,
+   "population": 17095677,
    "centroid": [
     18.645,
     15.333
@@ -2125,7 +2125,7 @@
    "iso3": "TGO",
    "name": "Togo",
    "team": 4,
-   "population": 8654085,
+   "population": 8664614,
    "centroid": [
     0.962,
     8.525
@@ -2135,7 +2135,7 @@
    "iso3": "THA",
    "name": "Thailand",
    "team": 5,
-   "population": 74550662,
+   "population": 74641357,
    "centroid": [
     101.006,
     15.134
@@ -2145,7 +2145,7 @@
    "iso3": "TJK",
    "name": "Tajikistan",
    "team": 3,
-   "population": 9980356,
+   "population": 9992497,
    "centroid": [
     71.014,
     38.529
@@ -2155,7 +2155,7 @@
    "iso3": "TKM",
    "name": "Turkmenistan",
    "team": 3,
-   "population": 6362412,
+   "population": 6370153,
    "centroid": [
     59.373,
     39.116
@@ -2165,7 +2165,7 @@
    "iso3": "TLS",
    "name": "Timor-Leste",
    "team": 2,
-   "population": 1384590,
+   "population": 1386274,
    "centroid": [
     125.923,
     -8.81
@@ -2175,7 +2175,7 @@
    "iso3": "TON",
    "name": "Tonga",
    "team": 2,
-   "population": 111886,
+   "population": 112022,
    "centroid": [
     -175.217,
     -21.167
@@ -2185,7 +2185,7 @@
    "iso3": "TTO",
    "name": "Trinidad and Tobago",
    "team": 2,
-   "population": 1493649,
+   "population": 1495466,
    "centroid": [
     -61.293,
     10.421
@@ -2195,7 +2195,7 @@
    "iso3": "TUN",
    "name": "Tunisia",
    "team": 3,
-   "population": 12521964,
+   "population": 12537198,
    "centroid": [
     9.548,
     34.12
@@ -2205,7 +2205,7 @@
    "iso3": "TUR",
    "name": "Turkey",
    "team": 3,
-   "population": 89331146,
+   "population": 89439822,
    "centroid": [
     35.422,
     38.991
@@ -2215,7 +2215,7 @@
    "iso3": "TUV",
    "name": "Tuvalu",
    "team": 2,
-   "population": 12470,
+   "population": 12485,
    "centroid": [
     179.206,
     -8.503
@@ -2225,7 +2225,7 @@
    "iso3": "TWN",
    "name": "Taiwan",
    "team": 4,
-   "population": 25235526,
+   "population": 25266226,
    "centroid": [
     120.962,
     23.752
@@ -2235,7 +2235,7 @@
    "iso3": "TZA",
    "name": "Tanzania",
    "team": 4,
-   "population": 62108575,
+   "population": 62184133,
    "centroid": [
     34.798,
     -6.276
@@ -2245,7 +2245,7 @@
    "iso3": "UGA",
    "name": "Uganda",
    "team": 2,
-   "population": 47401077,
+   "population": 47458742,
    "centroid": [
     32.369,
     1.275
@@ -2255,7 +2255,7 @@
    "iso3": "UKR",
    "name": "Ukraine",
    "team": 2,
-   "population": 47524812,
+   "population": 47582628,
    "centroid": [
     31.253,
     49.16
@@ -2265,7 +2265,7 @@
    "iso3": "URY",
    "name": "Uruguay",
    "team": 4,
-   "population": 3706605,
+   "population": 3711115,
    "centroid": [
     -56.018,
     -32.8
@@ -2275,7 +2275,7 @@
    "iso3": "USA",
    "name": "United States of America",
    "team": 2,
-   "population": 351458087,
+   "population": 351885651,
    "centroid": [
     -99.144,
     39.527
@@ -2285,7 +2285,7 @@
    "iso3": "UZB",
    "name": "Uzbekistan",
    "team": 3,
-   "population": 35956033,
+   "population": 35999775,
    "centroid": [
     63.133,
     41.757
@@ -2295,7 +2295,7 @@
    "iso3": "VAT",
    "name": "Vatican",
    "team": 2,
-   "population": 883,
+   "population": 884,
    "centroid": [
     12.434,
     41.902
@@ -2305,7 +2305,7 @@
    "iso3": "VCT",
    "name": "St. Vin. and Gren.",
    "team": 2,
-   "population": 118412,
+   "population": 118556,
    "centroid": [
     -61.196,
     13.254
@@ -2315,7 +2315,7 @@
    "iso3": "VEN",
    "name": "Venezuela",
    "team": 2,
-   "population": 30532943,
+   "population": 30570088,
    "centroid": [
     -66.187,
     7.119
@@ -2325,7 +2325,7 @@
    "iso3": "VGB",
    "name": "British Virgin Is.",
    "team": 2,
-   "population": 32154,
+   "population": 32193,
    "centroid": [
     -64.621,
     18.423
@@ -2335,7 +2335,7 @@
    "iso3": "VIR",
    "name": "U.S. Virgin Is.",
    "team": 2,
-   "population": 114174,
+   "population": 114313,
    "centroid": [
     -64.772,
     17.741
@@ -2345,7 +2345,7 @@
    "iso3": "VNM",
    "name": "Vietnam",
    "team": 4,
-   "population": 103285512,
+   "population": 103411164,
    "centroid": [
     106.301,
     16.652
@@ -2355,7 +2355,7 @@
    "iso3": "VUT",
    "name": "Vanuatu",
    "team": 2,
-   "population": 321095,
+   "population": 321485,
    "centroid": [
     166.85,
     -15.225
@@ -2365,7 +2365,7 @@
    "iso3": "WLF",
    "name": "Wallis and Futuna Is.",
    "team": 2,
-   "population": 12376,
+   "population": 12391,
    "centroid": [
     -178.13,
     -14.286
@@ -2375,7 +2375,7 @@
    "iso3": "WSM",
    "name": "Samoa",
    "team": 2,
-   "population": 211039,
+   "population": 211296,
    "centroid": [
     -172.437,
     -13.631
@@ -2385,7 +2385,7 @@
    "iso3": "YEM",
    "name": "Yemen",
    "team": 3,
-   "population": 31224739,
+   "population": 31262725,
    "centroid": [
     47.541,
     15.936
@@ -2395,7 +2395,7 @@
    "iso3": "ZAF",
    "name": "South Africa",
    "team": 2,
-   "population": 62700486,
+   "population": 62776764,
    "centroid": [
     25.157,
     -29.01
@@ -2405,7 +2405,7 @@
    "iso3": "ZMB",
    "name": "Zambia",
    "team": 2,
-   "population": 19124459,
+   "population": 19147725,
    "centroid": [
     27.775,
     -13.458
@@ -2415,7 +2415,7 @@
    "iso3": "ZWE",
    "name": "Zimbabwe",
    "team": 2,
-   "population": 15681439,
+   "population": 15700516,
    "centroid": [
     29.851,
     -19.004

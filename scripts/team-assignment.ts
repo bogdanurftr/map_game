@@ -28,21 +28,22 @@ export const TEAM_NAMES: Record<number, string> = {
   6: "L.Blue",
 };
 
-/** SPEC §3 population targets (millions) — build script verifies ±5%. */
+/** SPEC §3 population targets (millions) — build script verifies ±5%.
+ *  Orange/Purple retargeted by Amendment A2 (India → Purple, Mongolia → Orange). */
 export const SPEC_POP_TARGETS_M: Record<number, number> = {
-  [TEAM.ORANGE]: 3020,
+  [TEAM.ORANGE]: 1570,
   [TEAM.RED]: 2400,
   [TEAM.GREEN]: 2100,
   [TEAM.YELLOW]: 390,
-  [TEAM.PURPLE]: 300,
+  [TEAM.PURPLE]: 1760,
   [TEAM.LBLUE]: 10,
 };
 
 /** Explicit assignments. Anything not listed falls back to SUBREGION rules. */
 const EXPLICIT: Record<string, TeamId> = {
-  // — Orange: Hindu + Chinese-civilization bloc (team map doc §2)
+  // — Orange: Chinese-civilization bloc (team map doc §2; A2)
   CHN: TEAM.ORANGE,
-  IND: TEAM.ORANGE,
+  MNG: TEAM.ORANGE, // A2: Bogdan's correction (was Purple)
   NPL: TEAM.ORANGE,
   SGP: TEAM.ORANGE, // O2: Chinese-majority
   HKG: TEAM.ORANGE,
@@ -50,14 +51,14 @@ const EXPLICIT: Record<string, TeamId> = {
   MUS: TEAM.ORANGE, // Hindu plurality
   LKA: TEAM.ORANGE, // Indian-sphere; keeps Purple within SPEC §3 band
 
-  // — Purple: Japan + Buddhist belt (D4)
+  // — Purple: Japan + Buddhist belt + India (D4 as amended by A2)
+  IND: TEAM.PURPLE, // A2: Bogdan's correction (was Orange)
   JPN: TEAM.PURPLE,
   THA: TEAM.PURPLE,
   MMR: TEAM.PURPLE,
   KHM: TEAM.PURPLE,
   LAO: TEAM.PURPLE,
   BTN: TEAM.PURPLE,
-  MNG: TEAM.PURPLE, // O2: Buddhist majority
 
   // — L.Blue (D1)
   ISR: TEAM.LBLUE,
