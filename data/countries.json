@@ -24,7 +24,7 @@
   {
    "iso3": "AGO",
    "name": "Angola",
-   "team": 2,
+   "team": 4,
    "population": 34117965,
    "centroid": [
     17.564,
@@ -94,7 +94,7 @@
   {
    "iso3": "ARM",
    "name": "Armenia",
-   "team": 2,
+   "team": 5,
    "population": 3170804,
    "centroid": [
     44.929,
@@ -174,7 +174,7 @@
   {
    "iso3": "AZE",
    "name": "Azerbaijan",
-   "team": 3,
+   "team": 5,
    "population": 10745390,
    "centroid": [
     47.664,
@@ -184,7 +184,7 @@
   {
    "iso3": "BDI",
    "name": "Burundi",
-   "team": 2,
+   "team": 4,
    "population": 12361234,
    "centroid": [
     29.875,
@@ -284,7 +284,7 @@
   {
    "iso3": "BLR",
    "name": "Belarus",
-   "team": 2,
+   "team": 5,
    "population": 10148841,
    "centroid": [
     28.032,
@@ -364,7 +364,7 @@
   {
    "iso3": "BWA",
    "name": "Botswana",
-   "team": 2,
+   "team": 4,
    "population": 2469654,
    "centroid": [
     23.799,
@@ -374,7 +374,7 @@
   {
    "iso3": "CAF",
    "name": "Central African Rep.",
-   "team": 2,
+   "team": 4,
    "population": 5087025,
    "centroid": [
     20.468,
@@ -434,7 +434,7 @@
   {
    "iso3": "CMR",
    "name": "Cameroon",
-   "team": 2,
+   "team": 4,
    "population": 27740495,
    "centroid": [
     12.74,
@@ -444,7 +444,7 @@
   {
    "iso3": "COD",
    "name": "Dem. Rep. Congo",
-   "team": 2,
+   "team": 4,
    "population": 93042894,
    "centroid": [
     23.644,
@@ -454,7 +454,7 @@
   {
    "iso3": "COG",
    "name": "Congo",
-   "team": 2,
+   "team": 4,
    "population": 5768116,
    "centroid": [
     15.22,
@@ -494,7 +494,7 @@
   {
    "iso3": "CPV",
    "name": "Cabo Verde",
-   "team": 2,
+   "team": 4,
    "population": 589552,
    "centroid": [
     -23.637,
@@ -754,7 +754,7 @@
   {
    "iso3": "GAB",
    "name": "Gabon",
-   "team": 2,
+   "team": 4,
    "population": 2329090,
    "centroid": [
     11.789,
@@ -774,7 +774,7 @@
   {
    "iso3": "GEO",
    "name": "Georgia",
-   "team": 2,
+   "team": 5,
    "population": 3988396,
    "centroid": [
     43.508,
@@ -794,7 +794,7 @@
   {
    "iso3": "GHA",
    "name": "Ghana",
-   "team": 2,
+   "team": 4,
    "population": 32609135,
    "centroid": [
     -1.217,
@@ -834,7 +834,7 @@
   {
    "iso3": "GNQ",
    "name": "Eq. Guinea",
-   "team": 2,
+   "team": 4,
    "population": 1453670,
    "centroid": [
     10.47,
@@ -1134,7 +1134,7 @@
   {
    "iso3": "KEN",
    "name": "Kenya",
-   "team": 2,
+   "team": 4,
    "population": 56361362,
    "centroid": [
     37.795,
@@ -1234,7 +1234,7 @@
   {
    "iso3": "LBR",
    "name": "Liberia",
-   "team": 2,
+   "team": 4,
    "population": 5293059,
    "centroid": [
     -9.322,
@@ -1284,7 +1284,7 @@
   {
    "iso3": "LSO",
    "name": "Lesotho",
-   "team": 2,
+   "team": 4,
    "population": 2278371,
    "centroid": [
     28.227,
@@ -1524,7 +1524,7 @@
   {
    "iso3": "MWI",
    "name": "Malawi",
-   "team": 2,
+   "team": 4,
    "population": 19970748,
    "centroid": [
     34.289,
@@ -1544,7 +1544,7 @@
   {
    "iso3": "NAM",
    "name": "Namibia",
-   "team": 2,
+   "team": 4,
    "population": 2674234,
    "centroid": [
     17.21,
@@ -1834,7 +1834,7 @@
   {
    "iso3": "RUS",
    "name": "Russia",
-   "team": 2,
+   "team": 5,
    "population": 154774096,
    "centroid": [
     99.062,
@@ -1844,7 +1844,7 @@
   {
    "iso3": "RWA",
    "name": "Rwanda",
-   "team": 2,
+   "team": 4,
    "population": 13536586,
    "centroid": [
     29.92,
@@ -1924,7 +1924,7 @@
   {
    "iso3": "SHN",
    "name": "Saint Helena",
-   "team": 2,
+   "team": 4,
    "population": 4861,
    "centroid": [
     -5.716,
@@ -2014,7 +2014,7 @@
   {
    "iso3": "STP",
    "name": "São Tomé and Principe",
-   "team": 2,
+   "team": 4,
    "population": 230548,
    "centroid": [
     6.607,
@@ -2064,7 +2064,7 @@
   {
    "iso3": "SWZ",
    "name": "eSwatini",
-   "team": 2,
+   "team": 4,
    "population": 1230840,
    "centroid": [
     31.482,
@@ -2084,7 +2084,7 @@
   {
    "iso3": "SYC",
    "name": "Seychelles",
-   "team": 2,
+   "team": 4,
    "population": 104658,
    "centroid": [
     55.476,
@@ -2244,7 +2244,7 @@
   {
    "iso3": "UGA",
    "name": "Uganda",
-   "team": 2,
+   "team": 4,
    "population": 47458742,
    "centroid": [
     32.369,
@@ -2394,7 +2394,7 @@
   {
    "iso3": "ZAF",
    "name": "South Africa",
-   "team": 2,
+   "team": 4,
    "population": 62776764,
    "centroid": [
     25.157,
@@ -2404,7 +2404,7 @@
   {
    "iso3": "ZMB",
    "name": "Zambia",
-   "team": 2,
+   "team": 4,
    "population": 19147725,
    "centroid": [
     27.775,
@@ -2414,7 +2414,7 @@
   {
    "iso3": "ZWE",
    "name": "Zimbabwe",
-   "team": 2,
+   "team": 4,
    "population": 15700516,
    "centroid": [
     29.851,

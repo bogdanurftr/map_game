@@ -29,13 +29,14 @@ export const TEAM_NAMES: Record<number, string> = {
 };
 
 /** SPEC §3 population targets (millions) — build script verifies ±5%.
- *  Orange/Purple retargeted by Amendment A2 (India → Purple, Mongolia → Orange). */
+ *  Retargeted by Amendments A2 (India → Purple, Mongolia → Orange) and
+ *  A3 (Sub-Saharan Red → Yellow; Russia/Belarus/Caucasus → Purple). */
 export const SPEC_POP_TARGETS_M: Record<number, number> = {
   [TEAM.ORANGE]: 1570,
-  [TEAM.RED]: 2400,
-  [TEAM.GREEN]: 2100,
-  [TEAM.YELLOW]: 390,
-  [TEAM.PURPLE]: 1760,
+  [TEAM.RED]: 1860,
+  [TEAM.GREEN]: 2000,
+  [TEAM.YELLOW]: 850,
+  [TEAM.PURPLE]: 1940,
   [TEAM.LBLUE]: 10,
 };
 
@@ -54,6 +55,12 @@ const EXPLICIT: Record<string, TeamId> = {
   // — Purple: Japan + Buddhist belt + India (D4 as amended by A2)
   IND: TEAM.PURPLE, // A2: Bogdan's correction (was Orange)
   JPN: TEAM.PURPLE,
+  // A3: Russia, Belarus + Caucasus → Purple (Bogdan's correction)
+  RUS: TEAM.PURPLE,
+  BLR: TEAM.PURPLE,
+  ARM: TEAM.PURPLE,
+  GEO: TEAM.PURPLE,
+  AZE: TEAM.PURPLE,
   THA: TEAM.PURPLE,
   MMR: TEAM.PURPLE,
   KHM: TEAM.PURPLE,
@@ -111,8 +118,6 @@ const EXPLICIT: Record<string, TeamId> = {
   PSX: TEAM.GREEN, // Palestine
 
   // — Red overrides inside default-Green subregions (D2 / Christian)
-  ARM: TEAM.RED,
-  GEO: TEAM.RED,
   CYP: TEAM.RED,
   PHL: TEAM.RED,
   TLS: TEAM.RED,
@@ -138,10 +143,11 @@ const SUBREGION_DEFAULT: Record<string, TeamId> = {
   "Western Europe": TEAM.RED,
   "Southern Europe": TEAM.RED,
   "Eastern Europe": TEAM.RED,
-  "Western Africa": TEAM.RED,
-  "Eastern Africa": TEAM.RED,
-  "Middle Africa": TEAM.RED,
-  "Southern Africa": TEAM.RED,
+  // A3: Sub-Saharan non-Muslim Africa is Yellow (was Red)
+  "Western Africa": TEAM.YELLOW,
+  "Eastern Africa": TEAM.YELLOW,
+  "Middle Africa": TEAM.YELLOW,
+  "Southern Africa": TEAM.YELLOW,
   "Australia and New Zealand": TEAM.RED,
   Melanesia: TEAM.RED,
   Micronesia: TEAM.RED,

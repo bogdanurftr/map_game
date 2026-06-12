@@ -43,8 +43,11 @@ describe("world data (M1 accept)", () => {
       [106.9, 47.9, 1, "Ulaanbaatar → Orange (A2)"],
       [77.2, 28.6, 5, "Delhi → Purple (A2)"],
       [-77.0, 38.9, 2, "Washington → Red"],
-      [37.6, 55.8, 2, "Moscow → Red"],
       [-47.9, -15.8, 2, "Brasília → Red"],
+      [37.6, 55.8, 5, "Moscow → Purple (A3)"],
+      [44.8, 41.7, 5, "Tbilisi → Purple (A3)"],
+      [15.3, -4.3, 4, "Kinshasa → Yellow (A3)"],
+      [28.1, -26.2, 4, "Johannesburg → Yellow (A3)"],
       [31.2, 30.1, 3, "Cairo → Green"],
       [67.0, 24.9, 3, "Karachi → Green"],
       [106.8, -6.2, 3, "Jakarta → Green"],
@@ -69,12 +72,12 @@ describe("world data (M1 accept)", () => {
     const grid = parseGrid(
       readFileSync(join(DATA, "grid.bin")).buffer as ArrayBuffer,
     );
-    // Chukotka (Russia, Red) spans the date line
+    // Chukotka (Russia, Purple since A3) spans the date line
     expect(lonLatToCell(grid, 179.9, 66.0), "Chukotka west of date line").toBe(
       lonLatToCell(grid, 179.9, 66.0),
     );
     expect(lonLatToCell(grid, -179.9, 66.0), "Chukotka east of date line").toBe(
-      2,
+      5,
     );
   });
 
