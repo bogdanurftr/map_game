@@ -1,0 +1,434 @@
+[
+ {
+  "id": 0,
+  "kind": "iron",
+  "lon": 119.7,
+  "lat": -22.6,
+  "label": "Pilbara, Australia",
+  "amount": 400
+ },
+ {
+  "id": 1,
+  "kind": "iron",
+  "lon": -50.2,
+  "lat": -6.1,
+  "label": "Carajás, Brazil",
+  "amount": 400
+ },
+ {
+  "id": 2,
+  "kind": "iron",
+  "lon": -43.5,
+  "lat": -19.9,
+  "label": "Minas Gerais, Brazil",
+  "amount": 400
+ },
+ {
+  "id": 3,
+  "kind": "iron",
+  "lon": 114.5,
+  "lat": 36.6,
+  "label": "Hebei, China",
+  "amount": 400
+ },
+ {
+  "id": 4,
+  "kind": "iron",
+  "lon": 123,
+  "lat": 41.1,
+  "label": "Anshan, China",
+  "amount": 400
+ },
+ {
+  "id": 5,
+  "kind": "iron",
+  "lon": 85,
+  "lat": 21.5,
+  "label": "Odisha, India",
+  "amount": 400
+ },
+ {
+  "id": 6,
+  "kind": "iron",
+  "lon": 36.6,
+  "lat": 51.7,
+  "label": "Kursk, Russia",
+  "amount": 400
+ },
+ {
+  "id": 7,
+  "kind": "iron",
+  "lon": 33.4,
+  "lat": 47.9,
+  "label": "Kryvyi Rih, Ukraine",
+  "amount": 400
+ },
+ {
+  "id": 8,
+  "kind": "iron",
+  "lon": 20.2,
+  "lat": 67.9,
+  "label": "Kiruna, Sweden",
+  "amount": 400
+ },
+ {
+  "id": 9,
+  "kind": "iron",
+  "lon": -92.5,
+  "lat": 47.5,
+  "label": "Mesabi Range, USA",
+  "amount": 400
+ },
+ {
+  "id": 10,
+  "kind": "iron",
+  "lon": 27.8,
+  "lat": -23.7,
+  "label": "Limpopo, South Africa",
+  "amount": 400
+ },
+ {
+  "id": 11,
+  "kind": "iron",
+  "lon": -12.7,
+  "lat": 22.7,
+  "label": "Zouérat, Mauritania",
+  "amount": 400
+ },
+ {
+  "id": 12,
+  "kind": "iron",
+  "lon": 7.3,
+  "lat": 5.5,
+  "label": "Itakpe, Nigeria",
+  "amount": 400
+ },
+ {
+  "id": 13,
+  "kind": "iron",
+  "lon": 59.9,
+  "lat": 57.9,
+  "label": "Urals, Russia",
+  "amount": 400
+ },
+ {
+  "id": 14,
+  "kind": "oil",
+  "lon": 48.5,
+  "lat": 28,
+  "label": "Persian Gulf (Kuwait/Saudi)",
+  "amount": 250
+ },
+ {
+  "id": 15,
+  "kind": "oil",
+  "lon": 51,
+  "lat": 25.5,
+  "label": "Qatar / UAE",
+  "amount": 250
+ },
+ {
+  "id": 16,
+  "kind": "oil",
+  "lon": 47.8,
+  "lat": 30.5,
+  "label": "Basra, Iraq",
+  "amount": 250
+ },
+ {
+  "id": 17,
+  "kind": "oil",
+  "lon": 49.6,
+  "lat": 31.3,
+  "label": "Khuzestan, Iran",
+  "amount": 250
+ },
+ {
+  "id": 18,
+  "kind": "oil",
+  "lon": 76,
+  "lat": 61,
+  "label": "West Siberia, Russia",
+  "amount": 250
+ },
+ {
+  "id": 19,
+  "kind": "oil",
+  "lon": 53,
+  "lat": 47,
+  "label": "Caspian (Kazakhstan)",
+  "amount": 250
+ },
+ {
+  "id": 20,
+  "kind": "oil",
+  "lon": -102,
+  "lat": 31.5,
+  "label": "Permian Basin, USA",
+  "amount": 250
+ },
+ {
+  "id": 21,
+  "kind": "oil",
+  "lon": -90.5,
+  "lat": 28.5,
+  "label": "Gulf of Mexico, USA",
+  "amount": 250
+ },
+ {
+  "id": 22,
+  "kind": "oil",
+  "lon": -111.5,
+  "lat": 56.7,
+  "label": "Athabasca, Canada",
+  "amount": 250
+ },
+ {
+  "id": 23,
+  "kind": "oil",
+  "lon": -71.3,
+  "lat": 10.2,
+  "label": "Maracaibo, Venezuela",
+  "amount": 250
+ },
+ {
+  "id": 24,
+  "kind": "oil",
+  "lon": -64,
+  "lat": 8.5,
+  "label": "Orinoco Belt, Venezuela",
+  "amount": 250
+ },
+ {
+  "id": 25,
+  "kind": "oil",
+  "lon": 6.8,
+  "lat": 4.8,
+  "label": "Niger Delta, Nigeria",
+  "amount": 250
+ },
+ {
+  "id": 26,
+  "kind": "oil",
+  "lon": 17.5,
+  "lat": 28.5,
+  "label": "Sirte Basin, Libya",
+  "amount": 250
+ },
+ {
+  "id": 27,
+  "kind": "oil",
+  "lon": 6,
+  "lat": 31,
+  "label": "Hassi Messaoud, Algeria",
+  "amount": 250
+ },
+ {
+  "id": 28,
+  "kind": "oil",
+  "lon": 1.8,
+  "lat": 58.5,
+  "label": "North Sea",
+  "amount": 250
+ },
+ {
+  "id": 29,
+  "kind": "oil",
+  "lon": 124.5,
+  "lat": 46.6,
+  "label": "Daqing, China",
+  "amount": 250
+ },
+ {
+  "id": 30,
+  "kind": "oil",
+  "lon": 101.5,
+  "lat": 1.5,
+  "label": "Sumatra, Indonesia",
+  "amount": 250
+ },
+ {
+  "id": 31,
+  "kind": "oil",
+  "lon": -42,
+  "lat": -24,
+  "label": "Pre-salt, Brazil",
+  "amount": 250
+ },
+ {
+  "id": 32,
+  "kind": "copper",
+  "lon": -69.1,
+  "lat": -24.3,
+  "label": "Escondida, Chile",
+  "amount": 250
+ },
+ {
+  "id": 33,
+  "kind": "copper",
+  "lon": -70.3,
+  "lat": -22.3,
+  "label": "Chuquicamata, Chile",
+  "amount": 250
+ },
+ {
+  "id": 34,
+  "kind": "copper",
+  "lon": -71.6,
+  "lat": -14.9,
+  "label": "Southern Peru",
+  "amount": 250
+ },
+ {
+  "id": 35,
+  "kind": "copper",
+  "lon": 25.8,
+  "lat": -10.7,
+  "label": "Copperbelt, DRC",
+  "amount": 250
+ },
+ {
+  "id": 36,
+  "kind": "copper",
+  "lon": 28.2,
+  "lat": -12.8,
+  "label": "Copperbelt, Zambia",
+  "amount": 250
+ },
+ {
+  "id": 37,
+  "kind": "copper",
+  "lon": -110.8,
+  "lat": 32.5,
+  "label": "Arizona, USA",
+  "amount": 250
+ },
+ {
+  "id": 38,
+  "kind": "copper",
+  "lon": 137.1,
+  "lat": -4.1,
+  "label": "Grasberg, Indonesia",
+  "amount": 250
+ },
+ {
+  "id": 39,
+  "kind": "copper",
+  "lon": 141,
+  "lat": -32,
+  "label": "NSW, Australia",
+  "amount": 250
+ },
+ {
+  "id": 40,
+  "kind": "copper",
+  "lon": 92.5,
+  "lat": 31,
+  "label": "Tibet, China",
+  "amount": 250
+ },
+ {
+  "id": 41,
+  "kind": "copper",
+  "lon": 106.9,
+  "lat": 43,
+  "label": "Oyu Tolgoi, Mongolia",
+  "amount": 250
+ },
+ {
+  "id": 42,
+  "kind": "copper",
+  "lon": 16.5,
+  "lat": 51.4,
+  "label": "Lubin, Poland",
+  "amount": 250
+ },
+ {
+  "id": 43,
+  "kind": "copper",
+  "lon": 69.6,
+  "lat": 49.9,
+  "label": "Kazakhstan",
+  "amount": 250
+ },
+ {
+  "id": 44,
+  "kind": "gold",
+  "lon": 27,
+  "lat": -26.4,
+  "label": "Witwatersrand, South Africa",
+  "amount": 150
+ },
+ {
+  "id": 45,
+  "kind": "gold",
+  "lon": 121.5,
+  "lat": -30.7,
+  "label": "Kalgoorlie, Australia",
+  "amount": 150
+ },
+ {
+  "id": 46,
+  "kind": "gold",
+  "lon": -116.5,
+  "lat": 40.8,
+  "label": "Nevada, USA",
+  "amount": 150
+ },
+ {
+  "id": 47,
+  "kind": "gold",
+  "lon": 120.4,
+  "lat": 37.4,
+  "label": "Shandong, China",
+  "amount": 150
+ },
+ {
+  "id": 48,
+  "kind": "gold",
+  "lon": 114,
+  "lat": 62.5,
+  "label": "East Siberia, Russia",
+  "amount": 150
+ },
+ {
+  "id": 49,
+  "kind": "gold",
+  "lon": -78.3,
+  "lat": -6.9,
+  "label": "Yanacocha, Peru",
+  "amount": 150
+ },
+ {
+  "id": 50,
+  "kind": "gold",
+  "lon": -1.8,
+  "lat": 6.3,
+  "label": "Ashanti, Ghana",
+  "amount": 150
+ },
+ {
+  "id": 51,
+  "kind": "gold",
+  "lon": 64.6,
+  "lat": 41.5,
+  "label": "Muruntau, Uzbekistan",
+  "amount": 150
+ },
+ {
+  "id": 52,
+  "kind": "gold",
+  "lon": -81,
+  "lat": 48.5,
+  "label": "Ontario, Canada",
+  "amount": 150
+ },
+ {
+  "id": 53,
+  "kind": "gold",
+  "lon": 137,
+  "lat": -3.9,
+  "label": "Papua, Indonesia",
+  "amount": 150
+ }
+]

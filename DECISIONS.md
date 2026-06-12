@@ -50,4 +50,6 @@ Every entry was explicitly confirmed by Bogdan during the spec interview (June 2
 
 ## Amendments
 
-*(empty — add dated entries here when implementation changes a decision)*
+| # | Date | Amendment |
+|---|---|---|
+| A1 | 2026-06-12 | **team_map_draft_v1.md reconstructed.** The original draft was absent from the project, so M1 rebuilt it from D1–D8 + SPEC §3 population targets (religion-map interpretation). Tuning choices made solely to hit the ±5% bands: Ethiopia → Green, Sri Lanka → Orange; Yellow defined as the folk/unaffiliated bloc (Vietnam, Koreas, Taiwan + African traditional belt + Czechia/Estonia/Uruguay). Populations = Natural Earth POP_EST (2019) scaled ×1.0707 to the 8.22B SPEC world (D12 ⚙). ⚠ Awaiting Bogdan's veto/confirmation. |

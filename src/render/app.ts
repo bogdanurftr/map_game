@@ -8,6 +8,7 @@ import { Application, Graphics } from "pixi.js";
 import { TICK_MS } from "../sim/constants";
 import type { FromWorker, Snapshot } from "../sim/messages";
 import { Hud } from "./hud";
+import { WorldView } from "./world-view";
 
 /** Two-deep snapshot buffer; alpha derived from render-thread receive times. */
 class SnapshotBuffer {
@@ -36,6 +37,9 @@ export async function startApp(root: HTMLElement): Promise<void> {
     antialias: true,
   });
   root.appendChild(app.canvas);
+
+  const world = await WorldView.load();
+  world.attach(app);
 
   const dots = new Graphics();
   app.stage.addChild(dots);
