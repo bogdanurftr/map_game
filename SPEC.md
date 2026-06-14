@@ -29,11 +29,11 @@ Territory assignments: see `team_map_draft_v1.md` (⚠ pending final corrections
 
 | Team | Pop | Units | HP× | Dmg× | Birth× | Arm % (mil/civ) | Unique specials | Quirks |
 |---|---|---|---|---|---|---|---|---|
-| Orange | ~1.57B (A2) | ~15,700 | 0.85 | 1.0 | 0.9 | 90/60 | Tank | Tanks very expensive |
+| Orange | ~1.76B (A2, A4) | ~17,600 | 0.85 | 1.0 | 0.9 | 90/60 | Tank | Tanks very expensive |
 | Red | ~1.86B (A3) | ~18,600 | 1.0 | 1.0 | 0.8 | 65/40 | Sniper | Armed conversion costs 1 iron instead of 2 |
 | Green | ~2.00B (A3) | ~20,000 | 0.8 | 1.0 | 1.5 | 80/50 | Bomber (friendly fire) | — |
 | Yellow | ~0.85B (A3) | ~8,500 | 1.6 | 1.0 | 0.8 ⚠ | 90/60 | Sniper access ⚠ | All specials +50% cost |
-| Purple | ~1.94B (A2, A3) | ~19,400 | 0.85 | 1.0 | 1.2 | 80/50 ⚠ | Catapult | — |
+| Purple | ~1.76B (A2, A4) | ~17,600 | 0.85 | 1.0 | 1.2 | 80/50 ⚠ | Catapult | — |
 | L.Blue | ~0.01B | ~100 | 1.5 | 1.3 | 1.0 ⚠ | 95/70 | Sniper + Tank | Starting stockpile: 200 gold, 100 iron, 50 oil, 50 copper ⚙; 60% ⚙ of units pre-armed |
 
 ⚠ Yellow's "more expensive specials" is interpreted as: Yellow shares Red's sniper roster at +50% cost. Confirm or correct.

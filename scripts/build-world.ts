@@ -11,6 +11,7 @@
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
+import { gzipSync } from "node:zlib";
 import { join } from "node:path";
 import {
   assignTeam,
@@ -28,7 +29,7 @@ const CELL_KM = 10;
 const EARTH_CIRCUMFERENCE_KM = 40075;
 const GRID_W = Math.round(EARTH_CIRCUMFERENCE_KM / CELL_KM); // 4008
 const GRID_H = Math.round(GRID_W / 2); // 2004
-const GRID_MAGIC = 0x57444731; // "WDG1"
+const GRID_MAGIC = 0x57444732; // "WDG2" (v2: + country-index plane, gzipped)
 
 // World population the team budget is based on (D12: ~81k units → ~8.1B).
 // Natural Earth POP_EST is 2019 (~7.68B); scale uniformly to the SPEC era. ⚙
@@ -162,30 +163,37 @@ for (const f of geo.features) {
 }
 
 countries.sort((a, b) => a.iso3.localeCompare(b.iso3));
+const countryIndex = new Map(countries.map((c, i) => [c.iso3, i]));
+if (countries.length > 255) throw new Error(">255 countries won't fit uint8");
 
-// Rasterize: paint each country; later (smaller) countries can overpaint —
-// sort by area descending so enclaves (Lesotho etc.) stay visible.
-const grid = new Uint8Array(GRID_W * GRID_H); // 0 = water
+// Rasterize two planes (team + country index); paint large countries first
+// so enclaves (Lesotho etc.) overpaint and stay visible.
+const teamGrid = new Uint8Array(GRID_W * GRID_H); // 0 = water
+const countryGrid = new Uint8Array(GRID_W * GRID_H).fill(255); // 255 = none
 const byArea = [...geo.features].sort((a, b) => {
   const area = (f: Feature) =>
     polygonsOf(f).reduce((s, p) => s + p[0].length, 0);
   return area(b) - area(a);
 });
 for (const f of byArea) {
-  const team = assignTeam(
-    f.properties.ADM0_A3 as string,
-    f.properties.SUBREGION as string,
-  );
+  const iso3 = f.properties.ADM0_A3 as string;
+  const team = assignTeam(iso3, f.properties.SUBREGION as string);
   const value = team === TEAM.NONE ? 7 : team; // 7 = unclaimed land
-  for (const poly of polygonsOf(f)) rasterize(grid, poly, value);
+  const cIdx = countryIndex.get(iso3)!;
+  for (const poly of polygonsOf(f)) {
+    rasterize(teamGrid, poly, value);
+    rasterize(countryGrid, poly, cIdx);
+  }
 }
 
-// grid.bin layout: 4×uint32 LE header (magic, w, h, cellKm), then w*h bytes.
+// grid.bin.gz (v2): gzip of [4×uint32 LE header (magic, w, h, cellKm),
+// team plane (w*h bytes), country-index plane (w*h bytes)].
 const header = new Uint32Array([GRID_MAGIC, GRID_W, GRID_H, CELL_KM]);
-const bin = new Uint8Array(header.byteLength + grid.byteLength);
+const bin = new Uint8Array(header.byteLength + 2 * teamGrid.byteLength);
 bin.set(new Uint8Array(header.buffer), 0);
-bin.set(grid, header.byteLength);
-writeFileSync(join(ROOT, "data/grid.bin"), bin);
+bin.set(teamGrid, header.byteLength);
+bin.set(countryGrid, header.byteLength + teamGrid.byteLength);
+writeFileSync(join(ROOT, "data/grid.bin.gz"), gzipSync(bin, { level: 9 }));
 
 writeFileSync(
   join(ROOT, "data/countries.json"),
@@ -209,7 +217,7 @@ writeFileSync(
 // Report: team totals vs SPEC §3 (M1 accept: within 5%)
 
 let landCells = 0;
-for (const v of grid) if (v !== 0) landCells++;
+for (const v of teamGrid) if (v !== 0) landCells++;
 
 console.log(`countries: ${countries.length}, popScale: ${popScale.toFixed(4)}`);
 console.log(

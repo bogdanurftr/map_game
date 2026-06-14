@@ -29,14 +29,14 @@ export const TEAM_NAMES: Record<number, string> = {
 };
 
 /** SPEC §3 population targets (millions) — build script verifies ±5%.
- *  Retargeted by Amendments A2 (India → Purple, Mongolia → Orange) and
- *  A3 (Sub-Saharan Red → Yellow; Russia/Belarus/Caucasus → Purple). */
+ *  Retargeted by Amendments A2 (India → Purple, Mongolia → Orange),
+ *  A3 (Sub-Saharan Red → Yellow) and A4 (Russia/Belarus/Caucasus → Orange). */
 export const SPEC_POP_TARGETS_M: Record<number, number> = {
-  [TEAM.ORANGE]: 1570,
+  [TEAM.ORANGE]: 1755,
   [TEAM.RED]: 1860,
   [TEAM.GREEN]: 2000,
   [TEAM.YELLOW]: 850,
-  [TEAM.PURPLE]: 1940,
+  [TEAM.PURPLE]: 1760,
   [TEAM.LBLUE]: 10,
 };
 
@@ -45,6 +45,12 @@ const EXPLICIT: Record<string, TeamId> = {
   // — Orange: Chinese-civilization bloc (team map doc §2; A2)
   CHN: TEAM.ORANGE,
   MNG: TEAM.ORANGE, // A2: Bogdan's correction (was Purple)
+  // A4: Russia, Belarus + Caucasus → Orange (was Purple in A3)
+  RUS: TEAM.ORANGE,
+  BLR: TEAM.ORANGE,
+  ARM: TEAM.ORANGE,
+  GEO: TEAM.ORANGE,
+  AZE: TEAM.ORANGE,
   NPL: TEAM.ORANGE,
   SGP: TEAM.ORANGE, // O2: Chinese-majority
   HKG: TEAM.ORANGE,
@@ -55,12 +61,6 @@ const EXPLICIT: Record<string, TeamId> = {
   // — Purple: Japan + Buddhist belt + India (D4 as amended by A2)
   IND: TEAM.PURPLE, // A2: Bogdan's correction (was Orange)
   JPN: TEAM.PURPLE,
-  // A3: Russia, Belarus + Caucasus → Purple (Bogdan's correction)
-  RUS: TEAM.PURPLE,
-  BLR: TEAM.PURPLE,
-  ARM: TEAM.PURPLE,
-  GEO: TEAM.PURPLE,
-  AZE: TEAM.PURPLE,
   THA: TEAM.PURPLE,
   MMR: TEAM.PURPLE,
   KHM: TEAM.PURPLE,

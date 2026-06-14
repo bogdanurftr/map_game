@@ -11,7 +11,7 @@ export class Hud {
     this.el = document.createElement("div");
     this.el.id = "hud";
     parent.appendChild(this.el);
-    this.render(0, 0, 0);
+    this.render(0, 0, 0, 0);
   }
 
   /** Call once per rAF frame to keep the FPS estimate fresh. */
@@ -22,11 +22,13 @@ export class Hud {
     if (dt > 0) this.fpsEma += (1000 / dt - this.fpsEma) * 0.05;
   }
 
-  render(tick: number, unitCount: number, hash: number): void {
+  render(tick: number, liveCount: number, totalUnits: number, hash: number): void {
     this.el.textContent =
       `fps ${this.fpsEma.toFixed(0)}  ` +
       `tick ${tick}  ` +
-      `units ${unitCount}  ` +
-      `hash ${hashHex(hash)}`;
+      `live ${liveCount}  ` +
+      `world ${totalUnits}  ` +
+      `hash ${hashHex(hash)}` +
+      (liveCount === 0 ? "  —  click the map to drop a zone" : "");
   }
 }

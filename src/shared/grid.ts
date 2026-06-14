@@ -1,26 +1,49 @@
 /**
- * grid.bin format (written by scripts/build-world.ts):
- * 4×uint32 LE header (magic "WDG1", width, height, cellKm), then
- * width*height bytes — 0 water, 1–6 team id (SPEC §3), 7 unclaimed land.
+ * grid.bin.gz format v2 (written by scripts/build-world.ts): gzip of
+ * [4×uint32 LE header (magic "WDG2", width, height, cellKm),
+ *  team plane (w*h bytes): 0 water, 1–6 team id (SPEC §3), 7 unclaimed land,
+ *  country plane (w*h bytes): index into countries.json, 255 = none].
  * Equirectangular, row 0 = lat 90°N, col 0 = lon 180°W, wraps horizontally.
  */
 
-export const GRID_MAGIC = 0x57444731;
+export const GRID_MAGIC = 0x57444732; // "WDG2"
 
 export interface WorldGrid {
   width: number;
   height: number;
   cellKm: number;
-  cells: Uint8Array;
+  /** team ownership plane */
+  teams: Uint8Array;
+  /** country-index plane (index into countries.json, 255 = none) */
+  country: Uint8Array;
 }
 
 export function parseGrid(buffer: ArrayBuffer): WorldGrid {
   const header = new Uint32Array(buffer, 0, 4);
   if (header[0] !== GRID_MAGIC) throw new Error("grid.bin: bad magic");
   const [, width, height, cellKm] = header;
-  const cells = new Uint8Array(buffer, 16, width * height);
-  if (cells.length !== width * height) throw new Error("grid.bin: truncated");
-  return { width, height, cellKm, cells };
+  const n = width * height;
+  if (buffer.byteLength < 16 + 2 * n) throw new Error("grid.bin: truncated");
+  return {
+    width,
+    height,
+    cellKm,
+    teams: new Uint8Array(buffer, 16, n),
+    country: new Uint8Array(buffer, 16 + n, n),
+  };
+}
+
+/** Decompress (if gzipped) + parse. Browser/worker path; tests use zlib. */
+export async function loadGrid(res: Response): Promise<WorldGrid> {
+  let buf = await res.arrayBuffer();
+  const bytes = new Uint8Array(buf);
+  // Some CDNs transparently decode .gz; only decompress when still gzipped.
+  if (bytes[0] === 0x1f && bytes[1] === 0x8b) {
+    buf = await new Response(
+      new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip")),
+    ).arrayBuffer();
+  }
+  return parseGrid(buf);
 }
 
 /** Wrap-aware column index (D14: world wraps horizontally). */
@@ -38,5 +61,5 @@ export function lonLatToCell(
     grid.height - 1,
     Math.max(0, Math.floor(((90 - lat) / 180) * grid.height)),
   );
-  return grid.cells[row * grid.width + col];
+  return grid.teams[row * grid.width + col];
 }

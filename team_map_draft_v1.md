@@ -15,11 +15,12 @@ Americas, Europe west of Russia/Belarus, Cyprus, Philippines, Timor-Leste,
 Oceania, Greenland. (A3 moved Russia/Belarus/Caucasus to Purple and
 Sub-Saharan non-Muslim Africa to Yellow.)
 
-## 2. Orange — Chinese-civilization bloc (A2)
+## 2. Orange — Chinese-civilization + Russia bloc (A2, A4)
 
-China (+ Hong Kong, Macao), Mongolia (A2), Nepal, Sri Lanka*, Singapore,
-Mauritius. *Sri Lanka: Indian-sphere tuning choice from the original
-reconstruction (see §7).
+China (+ Hong Kong, Macao), Mongolia (A2), Russia, Belarus, Armenia,
+Georgia, Azerbaijan (A4), Nepal, Sri Lanka*, Singapore, Mauritius.
+*Sri Lanka: Indian-sphere tuning choice from the original reconstruction
+(see §7).
 
 ## 3. Green — Muslim world
 
@@ -29,10 +30,10 @@ Sahel belt (Mali, Niger, Chad, Burkina Faso, Senegal, Gambia, Guinea,
 Mauritania, Sierra Leone), Horn (Somalia, Somaliland, Djibouti, Eritrea),
 Sudan, Nigeria*, Ivory Coast*, Ethiopia* (* = O2 edge cases / tuning, §7).
 
-## 4. Purple — Japan + Buddhist belt + India + Russia bloc (D4, A2, A3)
+## 4. Purple — Japan + Buddhist belt + India (D4, A2)
 
-India (A2), Japan, Thailand, Myanmar, Cambodia, Laos, Bhutan,
-Russia, Belarus, Armenia, Georgia, Azerbaijan (A3).
+India (A2), Japan, Thailand, Myanmar, Cambodia, Laos, Bhutan.
+(Russia bloc was Purple per A3, moved to Orange by A4.)
 
 ## 5. Yellow — folk / unaffiliated bloc + Sub-Saharan Africa (A3)
 
@@ -55,7 +56,7 @@ Israel only. (Palestine → Green.)
 | Vietnam | Yellow | folk-religion plurality |
 | Taiwan | Yellow | folk-religion plurality |
 | Nigeria | Green | Muslim plurality, northern dominance |
-| Russia, Belarus, Armenia, Georgia, Azerbaijan | **Purple** | Bogdan's correction, 2026-06-12 (A3) |
+| Russia, Belarus, Armenia, Georgia, Azerbaijan | **Orange** | Bogdan's corrections, 2026-06-12 (A3 → A4) |
 | Singapore | Orange | Chinese-majority |
 | Buddhist SEA vs brown | Purple | D4 names the belt explicitly |
 | Ethiopia | **Green ⚠** | Christian plurality in reality; assigned Green so Red ≤ +5% and Green ≥ −5% of SPEC §3. Flip to Red if SPEC §3 numbers are retuned. |
@@ -65,5 +66,5 @@ Israel only. (Palestine → Green.)
 
 `scripts/build-world.ts` prints per-team totals vs SPEC §3 and fails the
 build outside ±5% (Natural Earth POP_EST 2019 scaled to the 8.22B SPEC
-world — see Amendment A1). Targets retargeted by A2 + A3: Orange ~1.57B,
-Red ~1.86B, Green ~2.00B, Yellow ~0.85B, Purple ~1.94B, L.Blue ~0.01B.
+world — see Amendment A1). Targets retargeted by A2–A4: Orange ~1.76B,
+Red ~1.86B, Green ~2.00B, Yellow ~0.85B, Purple ~1.76B, L.Blue ~0.01B.

@@ -30,7 +30,9 @@ export class StateHasher {
     return this;
   }
 
-  array(arr: Uint8Array | Uint32Array | Float32Array): this {
+  array(
+    arr: Uint8Array | Uint16Array | Uint32Array | Int32Array | Float32Array,
+  ): this {
     const bytes = new Uint8Array(arr.buffer, arr.byteOffset, arr.byteLength);
     for (let i = 0; i < bytes.length; i++) this.byte(bytes[i]);
     return this;
